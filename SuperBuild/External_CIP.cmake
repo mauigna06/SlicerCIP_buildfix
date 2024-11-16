@@ -30,8 +30,8 @@ if(NOT DEFINED ${proj}_DIR AND NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
 
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
-    GIT_REPOSITORY "https://github.com/Slicer/ChestImagingPlatform.git"
-    GIT_TAG develop
+    GIT_REPOSITORY "https://github.com/mauigna06/ChestImagingPlatform_buildfix.git"
+    GIT_TAG mypatch
     SOURCE_DIR ${CMAKE_BINARY_DIR}/${proj}
     #DOWNLOAD_COMMAND ${CMAKE_COMMAND} -E echo "Remove this line and uncomment GIT_REPOSITORY and GIT_TAG"
     #SOURCE_DIR /Users/jonieva/Projects/CIP
