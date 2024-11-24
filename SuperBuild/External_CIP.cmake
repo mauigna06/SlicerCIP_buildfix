@@ -31,7 +31,7 @@ if(NOT DEFINED ${proj}_DIR AND NOT ${CMAKE_PROJECT_NAME}_USE_SYSTEM_${proj})
   ExternalProject_Add(${proj}
     ${${proj}_EP_ARGS}
     GIT_REPOSITORY "https://github.com/mauigna06/ChestImagingPlatform_buildfix.git"
-    GIT_TAG fix_computeFeatureStrength
+    GIT_TAG mypatch02
     SOURCE_DIR ${CMAKE_BINARY_DIR}/${proj}
     #DOWNLOAD_COMMAND ${CMAKE_COMMAND} -E echo "Remove this line and uncomment GIT_REPOSITORY and GIT_TAG"
     #SOURCE_DIR /Users/jonieva/Projects/CIP
